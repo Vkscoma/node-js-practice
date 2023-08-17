@@ -11,7 +11,6 @@ function addItemToCart() {
     let data = [{
         "id": 41952635093189,
         "quantity": 1,
-        "selling_plan": {{ product.selected_or_first_available_variant.selling_plan_allocations[0].selling_plan.id }}
     },
     {
         "id": 42030915879109,
